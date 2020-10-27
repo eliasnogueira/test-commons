@@ -59,7 +59,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/eliasnogueira/restrictions-client</url>
+            <url>https://maven.pkg.github.com/eliasnogueira/test-commons</url>
         </repository>
     </distributionManagement>
 
