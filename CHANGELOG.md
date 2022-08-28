@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.3] - 28-08-2022
+
+### Added
+- GitHub actions to automatically deploy this package
+
+### Changed
+- Refactor in the `RestClient` class
+  - renamer of `SLASH` to `BACKSLASH`  
+- Version updates in the following dependencies:
+  - `maven-compiler-plugin-3.10.1`
+  - `restassrured.version-5.1.1`
+  - `jackson-annotations.version-2.13.3`
+
 ## [1.0.2] - 03-03-2022
 
 ### Changed
