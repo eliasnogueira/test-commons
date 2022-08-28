@@ -31,7 +31,7 @@ import io.restassured.config.RestAssuredConfig;
 
 public class RestClient {
 
-    public static final String SLASH = "/";
+    public static final String BACKSLASH = "/";
 
     private final String baseUri;
     private final String basePath;
@@ -52,8 +52,7 @@ public class RestClient {
     }
 
     public void getRestAssuredConfig() {
-        RestAssuredConfig.newConfig().
-            jsonConfig(jsonConfig().numberReturnType(BIG_DECIMAL));
+        RestAssuredConfig.newConfig().jsonConfig(jsonConfig().numberReturnType(BIG_DECIMAL));
 
         enableLoggingOfRequestAndResponseIfValidationFails();
     }
